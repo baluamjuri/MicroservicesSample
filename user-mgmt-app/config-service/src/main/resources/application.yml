@@ -1,0 +1,13 @@
+server: 
+  port: 8001
+  
+spring: 
+  application: 
+    name: config-service
+  cloud: 
+    config: 
+      server: 
+        native: 
+          searchLocations: classpath:/configurations-center, classpath:/configurations-center/common            
+  profiles: 
+    active: native

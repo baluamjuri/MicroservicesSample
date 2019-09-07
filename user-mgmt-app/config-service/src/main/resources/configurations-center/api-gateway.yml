@@ -1,0 +1,12 @@
+zuul:
+  prefix: /gateway
+  routes:
+    auth-center:
+      path: /auth/**
+      service-id: auth-center
+      sensitiveHeaders: Cookie,Set-Cookie
+      # stripPrefix: false
+    user-service:
+      path: /userservice/**
+      sensitiveHeaders: Cookie,Set-Cookie
+      service-id: user-service

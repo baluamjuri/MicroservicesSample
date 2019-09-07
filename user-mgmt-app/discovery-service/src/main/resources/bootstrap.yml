@@ -1,0 +1,20 @@
+server: 
+  port: 8002
+  
+
+# Configure this Discovery Server
+eureka:
+  instance:
+    hostname: localhost
+  client:  
+  # Not a client, don't register with yourself (unless running
+  # multiple discovery servers for redundancy)
+    registerWithEureka: false
+    fetchRegistry: false
+
+spring:
+  application: 
+    name: discovery-service
+  cloud: 
+    config:
+      uri: http://localhost:8001
