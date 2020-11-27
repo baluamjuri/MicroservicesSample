@@ -74,6 +74,7 @@
    * [Config at git](https://www.youtube.com/watch?v=MoaF_G4qYW4)
    * [Config client](https://www.youtube.com/watch?v=IOEHV-7gdpI)
    * [Config security](https://www.youtube.com/watch?v=P7H0DPzepE0)
+   * [Spring cloud config - encryption and decryption](https://www.youtube.com/watch?v=1mwDM5xbWvU)
         
 ### For Eureka
    * https://www.baeldung.com/spring-cloud-netflix-eureka
