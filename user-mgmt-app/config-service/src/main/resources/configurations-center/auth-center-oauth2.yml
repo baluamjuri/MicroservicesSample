@@ -10,7 +10,7 @@ balu:
         access-token-validity-seconds: 6000
         # refresh-token-validity-seconds: 1200
         
-      - client-id: brandixtrustedclient
+      - client-id: trustedclient
         #secret is 'test', encrypted by BCryptPasswordEncoder
         client-secret: $2a$10$1XsBFUnfHjAMVY2A0itBKewiV6H3q381qmERomwd0srJeu787py7m
         authorized-grant-types: password 
